@@ -130,7 +130,7 @@
                                     <div class="standard_wrapper">
                                         <div class="page_content_wrapper">
                                             <div class="inner">
-                                                <h3 class="catmenutitle">5 Course Catering Menu- SGD39</h3>
+                                                <h3 class="catmenutitle">5 Course Catering Menu</h3>
                                                 <input type="hidden" name="course" value="5 Course Catering Menu - 3Pax">
                                                 <div class="full-width">
 
