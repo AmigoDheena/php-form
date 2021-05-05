@@ -60,28 +60,16 @@ function validate_threepack( f ){
 	}
 	else{
 		 jQuery.ajax({
-			// url: 'threepack_validate.php',
-			url: 'session_note.php',
+			url: 'cookie_note.php',
 			type: 'post',
 			data: jQuery('form#threepack').serialize(),
 			complete: function(data) {
 				jQuery('#form_status').html(data.responseText);
-				// jQuery('#threepack').find('input,textarea').attr({value:''});
 				jQuery('#threepack').css({opacity:1});
-
-				// jQuery("#three_submit").css("display","none");
-				// jQuery("#threepack_pay").css("display","block");
 			}
 		});
-
-		// window.location.href = "https://www.tantrestaurant.com/threepack-pay.php";
-		
 		jQuery("#three_submit").css("display","none");
 		jQuery("#threepack_pay").css("display","block");
-
-
-		// jQuery('#form_status').html('<span class="loading">Sending your message...</span>');
-		// jQuery('#threepack').animate({opacity:0.3});
 	}
 	setTimeout(function(){ jQuery(".wrong").hide();},3000);
 	return false;

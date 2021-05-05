@@ -66,24 +66,16 @@ function validate_twentypack( f ){
 	}
 	else{
 		 jQuery.ajax({
-			// url: 'twentypack_validate.php',
-			url: 'session_note.php',
+			url: 'cookie_note.php',
 			type: 'post',
 			data: jQuery('form#twentypack').serialize(),
 			complete: function(data) {
 				jQuery('#form_status').html(data.responseText);
-				// jQuery('#twentypack').find('input,textarea').attr({value:''});
 				jQuery('#twentypack').css({opacity:1});
 			}
 		});
-
-		// window.location.href = "https://www.tantrestaurant.com/twentypack-pay.php";
-
 		jQuery("#twenty_submit").css("display","none");
 		jQuery("#twentypack_pay").css("display","block");
-
-		// jQuery('#form_status').html('<span class="loading">Sending your message...</span>');
-		// jQuery('#twentypack').animate({opacity:0.3});
 	}
 	setTimeout(function(){ jQuery(".wrong").hide();},3000);
 	return false;
