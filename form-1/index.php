@@ -24,8 +24,6 @@
     <link rel="stylesheet" href="asset/css/jquery-ui.css">
     <style>
     #threepack_message,
-    #fivepack_message,
-    #tenpack_message,
     #twentypack_message {
         font-size: large;
         font-weight: bold;
@@ -134,7 +132,6 @@
                                                 <input type="hidden" name="course" value="5 Course Catering Menu - 3Pax">
                                                 <div class="full-width">
 
-                                                    <!-- <p>Starter 10pcs (Choose one) </p> -->
                                                     <label class="menulabel" for="starter">1. STARTER (Choose One) 6Pcs</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="starter" value="Chicken 65"> Chicken 65
@@ -150,7 +147,6 @@
 
                                                     <div class="errorclass" id="three_starter_id"></div><br>
                                                     <hr />
-                                                    <!-- <p>Bread 5pcs (Choose one) </p> -->
                                                     <label class="menulabel" for="bread">2. Bread (Choose One) 3Pcs</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="bread" value="Madurai Prata "> Madurai Prata 
@@ -166,7 +162,6 @@
 
                                                     <div class="errorclass" id="three_bread_id"></div><br>
                                                     <hr />
-                                                    <!-- <p>Rice/Noodles(Choose one) </p> -->
                                                     <label class="menulabel" for="rice">3. Rice/Noodles (Choose One)</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="rice" value="Fried Egg Rice"> Fried Egg Rice
@@ -194,7 +189,6 @@
 
                                                     <div class="errorclass" id="three_rice_id"></div><br>
                                                     <hr />
-                                                    <!-- <p>Non-veg Gravy (Choose one)</p> -->
                                                     <label class="menulabel" for="nonveg">4. Non-Veg Gravy (Choose One)</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="nonveg" value="Chettinad Chicken Masala"> Chettinad Chicken Masala
@@ -209,7 +203,6 @@
 
                                                     <div class="errorclass" id="three_nonveg_id"></div><br>
                                                     <hr />
-                                                    <!-- <p>Salad</p> -->
                                                     <label class="menulabel" for="Salad">5. Salad (Choose One)</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="salad" value="Cucumber, onion Raita"> Cucumber, onion Raita
@@ -317,7 +310,6 @@
                                     <div class="standard_wrapper">
                                         <div class="page_content_wrapper">
                                             <form method="post" action="https://www.sandbox.paypal.com/cgi-bin/webscr">
-                                                <!-- <form method="post" action="https://www.paypal.com/cgi-bin/webscr" target="_blank"> -->
                                                 <input type='hidden' name='business' value='sb-yfq8l3269874@business.example.com'>
                                                 <input type='hidden' name='amount' id="three_amt" value='39'>
                                                 <input type='hidden' name='no_shipping' value='1'>
@@ -340,7 +332,6 @@
                                                 <h3 class="catmenutitle">6 Course Catering Menu</h3>
                                                 <input type="hidden" name="course" value="6 Course Catering Menu - 20Pax">
                                                 <div class="full-width">
-                                                    <!-- <p>STARTER (Choose One) 20 Pcs</p> -->
                                                     <label class="menulabel" for="starter">1. STARTER (Choose One) 40 Pcs</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="starter" value="Chicken 65 (South Indian)"> Chicken 65 (South Indian)
@@ -356,7 +347,6 @@
 
                                                     <div class="errorclass" id="twenty_starter_id"></div> <br>
                                                     <hr />
-                                                    <!-- <p>Bread (Choose One) 10Pcs </p> -->
                                                     <label class="menulabel" for="bread">2. Bread (Choose One) 20Pcs</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="bread" value="Madurai Prata"> Madurai Prata 
@@ -372,7 +362,6 @@
 
                                                     <div class="errorclass" id="twenty_bread_id"></div> <br>
                                                     <hr />
-                                                    <!-- <p>Rice/Noodles(Choose one) </p> -->
                                                     <label class="menulabel" for="rice">3. Rice/Noodles (Choose One)</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="rice" value="Fried Egg Rice (Thai Style)"> Fried Egg Rice (Thai Style) 
@@ -400,7 +389,6 @@
 
                                                     <div class="errorclass" id="twenty_rice_id"></div> <br>
                                                     <hr />
-                                                    <!-- <p>Non-veg Gravy (Choose one)</p> -->
                                                     <label class="menulabel" for="nonveg">4. Non-Veg Gravy (Choose One)</label>
 
                                                     <span class="onerow"> 
@@ -418,7 +406,6 @@
                                                     <div class="errorclass" id="twenty_nonveg_id"></div> <br>
                                                     <hr />
 
-                                                    <!-- <p>Salad</p> -->
                                                     <label class="menulabel" for="Salad">5. Salad (Choose One)</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="salad" value="Cucumber, onion Raita (with Curd)"> Cucumber, onion Raita (with Curd) 
@@ -435,7 +422,6 @@
                                                     <div class="errorclass" id="twenty_salad_id"></div> <br>
                                                     <hr />
 
-                                                    <!-- <p>Dessert/Drink (20)</p> -->
                                                     <label class="menulabel" for="dessert">6. Dessert/Drink (20)</label>
                                                     <span class="onerow"> 
                                                         <input type="radio" name="dessert" value="GulabJamun"> GulabJamun 
@@ -544,7 +530,6 @@
                                     <div class="standard_wrapper">
                                         <div class="page_content_wrapper">
                                             <form method="post" action="https://www.sandbox.paypal.com/cgi-bin/webscr">
-                                                <!-- <form method="post" action="https://www.paypal.com/cgi-bin/webscr"> -->
                                                 <input type='hidden' name='business' value='sb-yfq8l3269874@business.example.com'>
                                                 <input type='hidden' name='amount' id="twenty_amt" value='208'>
                                                 <input type='hidden' name='no_shipping' value='1'>
