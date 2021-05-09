@@ -4,20 +4,8 @@
 <head>
     <title>Catering Menu - PHP Form</title>
     <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
-    <link rel='stylesheet' href='asset/css/settings.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/reset.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/wordpress.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/animation.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/magnific-popup.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/ui-custom.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/mediaelementplayer-legacy.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/flexslider.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/tooltipster.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/odometer-theme-minimal.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/hw-parallax.css' type='text/css' media='all' />
     <link rel='stylesheet' href='asset/css/screen.css' type='text/css' media='all' />
     <link rel='stylesheet' href='asset/css/font-awesome.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/kirki-styles.css' type='text/css' media='all' />
     <link rel='stylesheet' href='asset/css/grid.css' type='text/css' media='all' />
     <link rel='stylesheet' href='asset/css/datepicker.css' type='text/css' media='all' />
     <link rel='stylesheet' href='asset/css/style.css' type='text/css' media='all' />
@@ -314,7 +302,7 @@
                                                 <input type='hidden' name='amount' id="three_amt" value='39'>
                                                 <input type='hidden' name='no_shipping' value='1'>
                                                 <input type='hidden' name='currency_code' value='SGD'>
-                                                <input type='hidden' name='notify_url' value='http://localhost/notify.php'>
+                                                <!-- <input type='hidden' name='notify_url' value='http://localhost/notify.php'> -->
                                                 <input type='hidden' name='cancel_return' value='http://localhost/cancel.php'>
                                                 <input type='hidden' name='return' value='http://localhost/return.php'>
                                                 <input type="hidden" name="cmd" value="_xclick">
@@ -534,7 +522,7 @@
                                                 <input type='hidden' name='amount' id="twenty_amt" value='208'>
                                                 <input type='hidden' name='no_shipping' value='1'>
                                                 <input type='hidden' name='currency_code' value='SGD'>
-                                                <input type='hidden' name='notify_url' value='http://localhost/notify.php'>
+                                                <!-- <input type='hidden' name='notify_url' value='http://localhost/notify.php'> -->
                                                 <input type='hidden' name='cancel_return' value='http://localhost/cancel.php'>
                                                 <input type='hidden' name='return' value='http://localhost/return.php'>
                                                 <input type="hidden" name="cmd" value="_xclick">
@@ -552,38 +540,9 @@
         </div>
     </div>
 
-
     <script src='asset/js/jquery.js'></script>
     <script src="asset/js/jquery-ui.js"></script>
     <script src='asset/js/jquery-migrate.min.js'></script>
-    <script src='asset/js/plugins/revslider/public/assets/js/jquery.themepunch.tools.min.js'></script>
-    <script src='asset/js/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
-    <script src="asset/js/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="asset/js/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="asset/js/plugins/revslider/public/assets/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="asset/js/plugins/revslider/public/assets/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="asset/js/plugins/revslider/public/assets/js/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="asset/js/plugins/revslider/public/assets/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="asset/js/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
-    <script src='asset/js/plugins/jquery.blockUI.min.js'></script>
-    <script src='asset/js/plugins/js.cookie.min.js'></script>
-    <script src='asset/js/plugins/jquery.magnific-popup.js'></script>
-    <script src='asset/js/plugins/jquery.easing.js'></script>
-    <script src='asset/js/plugins/waypoints.min.js'></script>
-    <script src='asset/js/plugins/jquery.isotope.js'></script>
-    <script src='asset/js/plugins/jquery.masory.js'></script>
-    <script src='asset/js/plugins/jquery.tooltipster.min.js'></script>
-    <script src='asset/js/plugins/hw-parallax.js'></script>
-    <script src='asset/js/plugins/jquery.stellar.min.js'></script>
-    <script src='asset/js/plugins/jquery.resizeimagetoparent.min.js'></script>
-    <script src='asset/js/plugins/custom_plugins.js'></script>
-    <script src='asset/js/plugins/custom.js'></script>
-    <script src='asset/js/plugins/core.min.js'></script>
-    <script src='asset/js/plugins/datepicker.min.js'></script>
-    <script src='asset/js/plugins/custom-date.js'></script>
-    <script src='asset/js/plugins/jquery.timepicker.js'></script>
-    <script src='asset/js/plugins/custom-time.js'></script>
-    <script src='asset/js/plugins/jquery.validate.js'></script>
     <script src='threepack-validate.js'></script>
     <script src='twentypack-validate.js'></script>
 
