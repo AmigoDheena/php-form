@@ -302,9 +302,9 @@
                                                 <input type='hidden' name='amount' id="three_amt" value='39'>
                                                 <input type='hidden' name='no_shipping' value='1'>
                                                 <input type='hidden' name='currency_code' value='SGD'>
-                                                <!-- <input type='hidden' name='notify_url' value='http://localhost/notify.php'> -->
-                                                <input type='hidden' name='cancel_return' value='http://localhost/cancel.php'>
-                                                <input type='hidden' name='return' value='http://localhost/return.php'>
+                                                <!-- <input type='hidden' name='notify_url' value='http://localhost/php-form/form-1/notify.php'> -->
+                                                <input type='hidden' name='cancel_return' value='http://localhost/php-form/form-1/cancel.php'>
+                                                <input type='hidden' name='return' value='http://localhost/php-form/form-1/return.php'>
                                                 <input type="hidden" name="cmd" value="_xclick">
                                                 <input type="submit" name="pay_now" class="submit-button" id="threepack_pay_now" value="Pay Now">
                                             </form>
@@ -522,9 +522,9 @@
                                                 <input type='hidden' name='amount' id="twenty_amt" value='208'>
                                                 <input type='hidden' name='no_shipping' value='1'>
                                                 <input type='hidden' name='currency_code' value='SGD'>
-                                                <!-- <input type='hidden' name='notify_url' value='http://localhost/notify.php'> -->
-                                                <input type='hidden' name='cancel_return' value='http://localhost/cancel.php'>
-                                                <input type='hidden' name='return' value='http://localhost/return.php'>
+                                                <!-- <input type='hidden' name='notify_url' value='http://localhost/php-form/form-1/notify.php'> -->
+                                                <input type='hidden' name='cancel_return' value='http://localhost/php-form/form-1/cancel.php'>
+                                                <input type='hidden' name='return' value='http://localhost/php-form/form-1/return.php'>
                                                 <input type="hidden" name="cmd" value="_xclick">
                                                 <input type="submit" name="pay_now" id="twentypack_pay_now" class="submit-button" value="Pay Now">
                                             </form>
