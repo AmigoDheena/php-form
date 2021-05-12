@@ -5,11 +5,20 @@
     <title>Catering Menu - PHP Form</title>
     <link rel="icon" href="images/favicon.png" type="image/png" sizes="16x16">
     <link rel='stylesheet' href='asset/css/screen.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/font-awesome.min.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/grid.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/datepicker.css' type='text/css' media='all' />
-    <link rel='stylesheet' href='asset/css/style.css' type='text/css' media='all' />
-    <link rel="stylesheet" href="asset/css/jquery-ui.css">
+    <!-- <link rel='stylesheet' href='asset/css/font-awesome.min.css' type='text/css' media='all' /> -->
+    <!-- <link rel='stylesheet' href='asset/css/grid.css' type='text/css' media='all' /> -->
+    <!-- <link rel='stylesheet' href='asset/css/datepicker.css' type='text/css' media='all' /> -->
+    <!-- <link rel='stylesheet' href='asset/css/style.css' type='text/css' media='all' /> -->
+    <!-- <link rel="stylesheet" href="asset/css/jquery-ui.css"> -->
+    <script src='asset/js/loadcss.js'></script>
+    <script>
+        // loadCSS( "asset/css/screen.css" );
+        loadCSS( "asset/css/font-awesome.min.css" );
+        loadCSS( "asset/css/grid.css" );
+        loadCSS( "asset/css/datepicker.css" );
+        loadCSS( "asset/css/style.css" );
+        loadCSS( "asset/css/jquery-ui.css" );
+    </script>
     <style>
     #threepack_message,
     #twentypack_message {
