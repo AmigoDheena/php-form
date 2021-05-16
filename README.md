@@ -1,6 +1,6 @@
-# php-form
+# PHP Form
 
-**Form One**
+**Catering Form**
 - jQuery Form Validation
 - PHP discount coupon
 - Paypal payment integration
