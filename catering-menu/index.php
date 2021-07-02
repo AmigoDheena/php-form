@@ -321,8 +321,7 @@
                                     </div>
                                 </div>
 
-                                <form method="post" style="text-align: left; display: none;" id="twentypack"
-                                    onSubmit="return validate_twentypack( this );">
+                                <form method="post" style="text-align: left; display: none;" id="twentypack" onSubmit="return validate_twentypack( this );">
                                     <div class="standard_wrapper">
                                         <div class="page_content_wrapper">
                                             <div class="inner">
