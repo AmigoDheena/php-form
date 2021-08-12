@@ -1,4 +1,4 @@
-function validate_form( f ){
+			function validate_form( f ){
 
 	if( f.name.value == '' ){
 		jQuery('#form_status').html('<span class="wrong">Your name must not be empty!</span>');
@@ -9,15 +9,15 @@ function validate_form( f ){
 	}else if( f.phone.value == '' ){
 		jQuery('#form_status').html('<span class="wrong">Your phone must not be empty and correct format!</span>');
         notice( f.phone );
-    }else if( f.subject.value == '' ){
-		jQuery('#form_status').html('<span class="wrong">Your Subject must not be empty!</span>');
-		notice( f.subject );	
+    }else if( f.website.value == '' ){
+		jQuery('#form_status').html('<span class="wrong">Your website must not be empty!</span>');
+		notice( f.website );	
 	}else if( f.message.value == '' ){
 		jQuery('#form_status').html('<span class="wrong">Your message must not be empty!</span>');
 		notice( f.message );
 	}else{
 		 jQuery.ajax({
-			url: 'mail.php',
+			url: 'contact-mail.php',
 			type: 'post',
 			data: jQuery('form#contact-form').serialize(),
 			complete: function(data) {
