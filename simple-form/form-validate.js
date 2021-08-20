@@ -1,4 +1,4 @@
-			function validate_form( f ){
+function validate_form( f ){
 
 	if( f.name.value == '' ){
 		jQuery('#form_status').html('<span class="wrong">Your name must not be empty!</span>');
