@@ -1,19 +1,19 @@
 function validate_form( f ){
 
 	if( f.name.value == '' ){
-		jQuery('#form_status').html('<span class="wrong">Your name must not be empty!</span>');
+		jQuery('#form_status').html('<div class="alert alert-danger" role="alert">Your name must not be empty!</div>');
 		notice( f.name );
 	}else if( f.email.value == '' ){
-		jQuery('#form_status').html('<span class="wrong">Your email must not be empty and correct format!</span>');
+		jQuery('#form_status').html('<div class="alert alert-danger" role="alert">Your email must not be empty and correct format!</div>');
 		notice( f.email );	
 	}else if( f.phone.value == '' ){
-		jQuery('#form_status').html('<span class="wrong">Your phone must not be empty and correct format!</span>');
+		jQuery('#form_status').html('<div class="alert alert-danger" role="alert">Your phone must not be empty and correct format!</div>');
         notice( f.phone );
     }else if( f.website.value == '' ){
-		jQuery('#form_status').html('<span class="wrong">Your website must not be empty!</span>');
+		jQuery('#form_status').html('<div class="alert alert-danger" role="alert">Your website must not be empty!</div>');
 		notice( f.website );	
 	}else if( f.message.value == '' ){
-		jQuery('#form_status').html('<span class="wrong">Your message must not be empty!</span>');
+		jQuery('#form_status').html('<div class="alert alert-danger" role="alert">Your message must not be empty!</div>');
 		notice( f.message );
 	}else{
 		 jQuery.ajax({
@@ -27,7 +27,7 @@ function validate_form( f ){
                 jQuery('input[type="text"],textarea').val('');                
 			}
 		});
-		jQuery('#form_status').html('<span class="loading">Sending your message...</span>');
+		jQuery('#form_status').html('<div class="alert alert-primary" role="alert">Sending your message...</div>');
 		jQuery('#contact-form').animate({opacity:0.3});
 	}
 	
