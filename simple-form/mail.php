@@ -36,8 +36,8 @@
     $s = mail($to,$subject,$body,$headers,"-t -i -f $from");
 
     if( $s == 1 ){
-        echo '<div class="success"><i class="fa fa-check-circle"></i> Your message has been sent successfully.</div>';
+        echo '<div class="alert alert-success" role="alert"> Your message has been sent successfully.</div>';
     }else{
-        echo '<div>Your message sending failed!</div>';
+        echo '<div class="alert alert-danger" role="alert">Your message sending failed!</div>';
     }
 ?>
