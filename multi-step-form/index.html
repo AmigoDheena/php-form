@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Multi Step Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- multistep form -->
+<form id="msform" autocomplete="off">
+
+  <!-- fieldsets -->
+  <fieldset>
+    <h2 class="fs-title">Service Looking For</h2>
+    <h3 class="fs-subtitle">Please select your service</h3>
+    <select name="select" id="">
+      <option value="Career Counselling">Career Counselling</option>
+      <option value="Admissions Consulting">Admissions Consulting</option>
+      <option value="Test Preparation">Test Preparation</option>
+      <option value="Applications Assistance">Applications Assistance</option>
+      <option value="Overseas Education Loan Assistance">Overseas Education Loan Assistance</option>
+      <option value="Visa Assistance">Visa Assistance</option>
+      <option value="Scholarship Assistance">Scholarship Assistance</option>
+      <option value="Travel Assistance ">Travel Assistance </option>
+      <option value="Personal Statement Help">Personal Statement Help</option>
+      <option value="Letter of Recommendation Help">Letter of Recommendation Help</option>
+      <option value="Interviews preparation ">Interviews preparation </option>
+    </select>
+
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset>
+    <h2 class="fs-title">Country Preferred</h2>
+    <h3 class="fs-subtitle">Please select your Preferred Country</h3>
+    <select>
+      <option value="USA">USA</option>
+      <option value="England">England</option>
+      <option value="Canada">Canada</option>
+      <option value="Germany">Germany</option>
+      <option value="Ireland">Ireland</option>
+      <option value="Scotland">Scotland</option>
+      <option value="Australia">Australia</option>
+      <option value="France">France</option>
+      <option value="Singapore">Singapore</option>
+      <option value="Netherlands">Netherlands</option>
+      <option value="Sweden">Sweden</option>
+      <option value="New Zealand">New Zealand</option>
+      <option value="Italy">Italy</option>
+      <option value="Spain">Spain</option>
+      <option value="Malayasia">Malayasia</option>
+      <option value="Malta">Malta</option>
+      <option value="Japan">Japan</option>
+    </select>
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset>
+    <h2 class="fs-title">Your Details</h2>
+    <h3 class="fs-subtitle">Enter your Details</h3>
+    <input type="text" name="fname" placeholder="First Name" />
+    <input type="text" name="phone" placeholder="Phone" />
+    <input type="text" name="email" placeholder="Email" />
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset>
+    <h2 class="fs-title">Your Preferred Date</h2>
+    <h3 class="fs-subtitle">Please select your Preferred Date</h3>
+    <input type="date" id="birthday" name="birthday">
+    <input type="time">    
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="button" name="next" class="next action-button" value="Next" />
+  </fieldset>
+
+  <fieldset>
+    <h2 class="fs-title">Preferred Mode of Counselling</h2>
+    <h3 class="fs-subtitle">Please select your Counselling Mode</h3>
+    <select>
+      <option value="Phone Call">Phone Call</option>
+      <option value="Zoom Call">Zoom Call</option>
+      <option value="WhatsApp Call">WhatsApp Call</option>
+      <option value="Google Meet">Google Meet</option>
+      <option value="Skype">Skype</option>
+    </select>
+    <input type="button" name="previous" class="previous action-button" value="Previous" />
+    <input type="submit" name="submit" class="submit action-button" value="Submit" />
+  </fieldset>
+</form>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js'></script>
+<script src="script.js"></script>
+
+</body>
+</html>
